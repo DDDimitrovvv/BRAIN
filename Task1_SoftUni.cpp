@@ -44,7 +44,7 @@ int main()
 
 		}
 
-	// ------------------------------ Calculating the each sector of "guests" in procent to max 100%   ---------------------------------
+	// ------------------------------ Calculating the each sector of "guests" in percent  to max 100%   ---------------------------------
 	
 	double PROC_A = double(COUNTERAAA) / double (CounterPresents) * 100;
 	double PROC_B = double(COUNTERBBB) / double(CounterPresents) * 100;
