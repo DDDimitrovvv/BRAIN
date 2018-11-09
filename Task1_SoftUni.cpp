@@ -9,8 +9,9 @@ using namespace std;
 
 int main()
 {
+	// ------------------------------ initialisation ---------------------------------
 	cout.setf(ios::fixed);
-	cout.precision(2);
+	cout.precision(2);// it shows value only with two symbols after the point
 
 	int ObshtBroiGosti, CounterPresents;
 	int COUNTERAAA = 0;
@@ -23,6 +24,7 @@ int main()
 	cin >> ObshtBroiGosti >> CounterPresents;
 
 	
+	// ------------------------------ For loop to collect the  ---------------------------------
 
 		for (int i = 1; i <= CounterPresents; i++) {
 			cin >> SymbolPR;
@@ -42,13 +44,12 @@ int main()
 
 		}
 
+	// ------------------------------ Calculating the each sector of "guests" in procent to max 100%   ---------------------------------
 	
-
 	double PROC_A = double(COUNTERAAA) / double (CounterPresents) * 100;
 	double PROC_B = double(COUNTERBBB) / double(CounterPresents) * 100;
 	double PROC_V = double(COUNTERVVV) / double(CounterPresents) * 100;
 	double PROC_G = double(COUNTERGGG) / double(CounterPresents) * 100;
-
 	double PROC_daliPR = (double(CounterPresents) / double(ObshtBroiGosti)) * 100;
 
 	cout << PROC_A << "%"<< endl;
