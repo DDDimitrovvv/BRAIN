@@ -1,0 +1,6 @@
+You can make the same sorting without using a vector sorting function. 
+For choice '1': you can use a Multi-dimensional Array and two arrays 
+(one to store a strings - separated with delimiter ' ' and one array, 
+that store the summ of integers on each string word(summ the ASCII code for each char)). 
+After that you can sort the summ of integers and than fill the Multi-dimensional Array with correct string (words) with correct summ. 
+You will need a loop to compare all summ in scending order.
