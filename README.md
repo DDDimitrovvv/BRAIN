@@ -2,7 +2,7 @@
 Some Brain tasks
 
 
-In this repository you can find a three different tasks:
+In this repository you can find a three source codes of different tasks:
 
 
 1. --------------- Sorting_prototype_Program_C++.cpp  ------------------------------
